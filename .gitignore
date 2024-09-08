@@ -1,0 +1,52 @@
+# Python固有のファイル
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 環境設定ファイル
+.env
+*.env
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pythonパッケージ
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# IDEやエディタ固有のファイル
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebookのチェックポイント
+.ipynb_checkpoints/
+
+# Mac OS X固有のファイル
+.DS_Store
+
+# Logファイル
+*.log
+
+# テスト結果
+.coverage
+.tox/
+.nox/
+
+# ドキュメントビルド出力
+/build/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
